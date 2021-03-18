@@ -1,0 +1,467 @@
+*{
+    margin:0;
+    padding:0;
+}
+#landing{
+    background-color:#009dff;
+    color:#ffffff;
+}
+#container-flu{
+    padding-top:3%;
+    padding-bottom: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.navbar{
+    padding:0 0 4.5rem;
+    margin-bottom: 4.5rem;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:4rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-family:'Montserrat light'
+}
+/*Title image*/
+.title-image{
+    width:108%;
+    margin-top:0;
+
+}
+/*Start button*/
+.start-button{
+    margin-top:5%;
+}
+#start{
+    border:black solid 1px;
+}
+#start:hover{
+    background-color: black;
+    color:white
+}
+/*mission image*/
+.mission-title{
+    text-align: center;
+    color:#f5ba0a;
+}
+.mission-img{
+    width:100%;
+}
+.mission-container{
+    margin-top:10%;
+    padding:5%;
+}
+.mission-text{
+    margin-top:15%;
+    text-align: center;
+}
+/*services offered*/
+.services{
+    margin-left:10%;
+}
+.services-img{
+    width:90%;
+}
+.services-items ul {
+    text-decoration: none;
+}
+.card{
+    box-shadow: 3px 6px 3px black ;
+    border-radius: 10px;
+    padding:2%;
+    height:350px;
+    text-align: center;
+    margin-bottom: 20px;
+    border:none;
+    background-color: white;
+    outline: none;
+    margin-top: 5px;
+    transition: margin-top 0.5s;
+
+}
+.card:hover{
+    margin-top: 0;
+}
+
+.services-div{
+    margin:10%;
+}
+.cont{
+    margin:0 auto;
+    margin-left:8%;
+    margin-bottom: 5%;
+}
+/*About*/
+
+.about{
+    min-height: 500px;
+}
+.about-about{
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-right:10%;
+    padding-left:10%;
+}
+.about-img{
+
+    width:70%;
+    border-radius: 100%;
+}
+
+/*Testimonials*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);
+
+.body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #0098f7;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.primary-color {
+    color: #b1dbf5;
+}
+
+.testimonial-view {
+    max-width: 900px;
+    padding: 50px 15px;
+    margin: 0 auto 70px auto;
+    border-radius: 3px;
+}
+
+.testimonial-view.top-margin .testimonial-block_user {
+    margin-top: -60px;
+}
+
+@media (min-width: 900px) {
+    .testimonial-view.top-margin .testimonial-block_user {
+        margin-top: -100px;
+    }
+}
+
+.testimonial-view img.left-quote {
+    opacity: 0.01;
+    width: 20%;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: absolute;
+    left: 40%;
+}
+
+@media (min-width: 900px) {
+    .testimonial-view .carousel-control-prev {
+        left: -50px;
+    }
+
+    .testimonial-view .carousel-control-next {
+        right: -50px;
+    }
+
+    .testimonial-view .carousel-control-next-icon,
+    .testimonial-view .carousel-control-prev-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.section-header,
+.testimonial-block_user_info_name {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-header:after,
+.testimonial-block_user_info_name:after {
+    content: "";
+    height: 4px;
+    width: 100px;
+    background-color: #020474;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 50px);
+}
+
+.testimonial-block {
+    padding: 15px;
+    margin: 50px 15px;
+    background: #fff;
+    color: #333;
+    -webkit-box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+}
+@media (max-width:770px){
+    .card{
+        height:560px;
+    }
+}
+
+@media (max-width:570px){
+    .card{
+        height:320px;
+    }
+}
+
+@media (min-width: 900px) {
+    .testimonial-block {
+        padding: 50px;
+        margin: 50px;
+    }
+    
+}
+
+.testimonial-block .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-items: center;
+}
+
+.testimonial-block .testimonial-block_user {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonial-block .testimonial-block_user .testimonial-block_user_image {
+    position: relative;
+    margin: 0 15px 30px 15px;
+}
+
+.testimonial-block .testimonial-block_user .testimonial-block_user_image img {
+    height: 170px;
+    width: 170px;
+    border: 7px solid #b8d4ff;
+    border-radius: 170px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-block .testimonial-block_user .testimonial-block_user_info .testimonial-block_user_info_name {
+    margin-bottom: 10px;
+}
+
+.testimonial-block .testimonial-block_user .testimonial-block_user_info .testimonial-block_user_info_name:after {
+    width: 50px;
+    left: calc(50% - 25px);
+}
+
+.testimonial-block .testimonial-block_content {
+    text-align: center;
+    font-size: 18px;
+}
+
+.top-margin .testimonial-block .row {
+    place-items: normal;
+}
+/*Courses section*/
+.courses{
+    min-height: 400px;
+    background-image: url(../Img/courses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.courses div{
+    position:absolute;
+    left:50px;
+    top:80px;
+}
+.course-text{
+    color:white;
+    margin-top:20px;
+    font-weight: 700;
+    font-size: 60px;
+    width:80%;
+    font-weight: 700;
+}
+.course-button{
+    background-color: #032c46;
+    border:1px solid #032c46;
+    outline: none;
+    width:30%;
+    height: 50px;
+    color:white;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: margin-top box-shadow 2s;
+
+}
+.course-button:hover{
+    margin-top: 0;
+    box-shadow: #000000 4px 3px 5px;
+}
+/********===============********/
+
+/*Newsletter section*/
+.newsletter{
+    margin-bottom: 5%;
+    background-color:#009dff;
+    min-height: 450px;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    padding-right: 3%;
+    padding-left:10%;
+}
+.news-text{
+    color:white;
+    font-weight: 700;
+
+}
+#name{
+    width:70%;
+    height: 30%;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid #009dff;
+}
+#name:focus{
+    box-shadow: #032c46 4px 3px 5px;
+    height:30%;
+    border: 1px solid #009dff;
+    border-radius: 10px;
+
+}
+#email{
+    width:70%;
+    height: 30%;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid #009dff;
+}
+input[type=text]{
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email]{
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#email:focus{
+    box-shadow: #032c46 4px 3px 5px;
+    height:30%;
+    border: 1px solid #009dff;
+    border-radius: 10px;
+
+}
+#sub-button{
+    width:70%;
+    text-align: center;
+    height:30%;
+    color:white;
+    background-color: #032c46;
+    border-radius: 10px;
+    outline:none;
+    border:none;
+    margin-top: 3%;
+    transition: margin-top box-shadow 2s;
+}
+#sub-button:hover{
+    margin-top: 0;
+    box-shadow: #000000 4px 3px 5px;
+}
+/*Employee section*/
+.emp-img{
+    width:50%;
+    border-radius: 100%;
+    transition: width 0.5s;
+}
+.emp-img:hover{
+    width:70%;
+}
+.emp{
+    padding: 10%;
+}
+.emph1{
+    text-align: center;
+    padding-bottom: 10%;
+}
+.txt{
+    margin-left:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.footer{
+    text-align: center;
+    background-color: #009dff;
+    color:white;
+    min-height: 300px;
+    padding: 4% 12%;
+}
+.social{
+    margin-top:60px;
+
+}
+.social i{
+    margin-left:20px;
+
+}
+.social p{
+    margin-top:30px;
+}
+.social-text button{
+    margin-top: 30px;
+    width:200px;
+    background-color: #032c46;
+    color:white;
+}
+@media (max-width:988px) {
+    .services{
+        margin-left:3%
+    }
+    .services-img{
+        width:80%;
+    }
+    .about-img{
+        margin-left: 7%;
+        padding-bottom: 5%;
+    }
+    .emp-div{
+        text-align: center;
+    }
+    .container{
+        text-align: center;
+    }
+} 
+@media (max-width:456px){
+    .mission-text{
+        margin-top:20px;
+        width:70%;
+        margin:0 auto;
+    }
+    .card{
+        height:350px;
+    }
+    .emph1{
+        font-size:60px;
+    }
+    .section-header{
+        font-size: 30px;
+        padding:5%;
+    }
+}
